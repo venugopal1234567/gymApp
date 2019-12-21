@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-icon ios="ios-arrow-dropleft-circle" md="md-arrow-dropleft-circle" (click)="backToDashboard()"></ion-icon>
+    <ion-title>CustomerDetails</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+<ng-container *ngFor="let item of customers">
+    <ion-list>
+        <ion-list>
+          <ion-label>Name:  {{item.name}}</ion-label>
+        </ion-list>
+        <ion-item>
+          <ion-label>Date Of Birth:  {{item.dateOfBirth}}</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>Mobile Number:  {{item.mobileNumber}}</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>Date Of Joining:  {{item.dateOfJoining}}</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>Plan Subscribed: {{item.plans}}</ion-label>
+        </ion-item>
+      </ion-list>
+    
+    </ng-container>
+</ion-content>

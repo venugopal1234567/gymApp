@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-icon ios="ios-log-out" md="md-log-out"(click)="navigateToAddHome()" ></ion-icon>
+        </ion-buttons>
+    <ion-title>dashboard</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-icon ios="ios-contacts" md="md-contacts" (click)=" navigateToCustomerDetails()"></ion-icon>  
+    <ion-icon ios="ios-person-add" md="md-person-add" (click)="navigateToAddCustomer()" ></ion-icon>
+    <ion-icon ios="ios-create" md="md-create"></ion-icon>
+    <ion-icon ios="ios-search" md="md-search" (click)="navigateToSearchCustomer()"></ion-icon>
+
+</ion-content>

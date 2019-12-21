@@ -1,0 +1,20 @@
+ion-content ion-icon {
+    margin: 20px;
+    font-size: 60px; //Preferred size here
+    float: left;
+    color: white;
+    
+}
+ion-buttons ion-icon {
+    margin: 20px;
+    font-size: 40px; //Preferred size here
+    float: left;
+    
+    
+}
+ion-content{
+    --background: url(../../assets/images/bg2.jpg);
+    --background-repeat: no-repeat;
+    --background-size: cover;  
+
+    }
